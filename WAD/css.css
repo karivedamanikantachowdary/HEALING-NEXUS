@@ -1,0 +1,130 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/covid-coronavirus-disease-healthcare-workers-concept-closeup-confident-smiling-professional-asian_1258-84493.jpg?w=1060&t=st=1697089794~exp=1697090394~hmac=ebe2fd4c672ae10172e6d5192e889130b7da56b856d963d9f357ecafe6989dc8');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow-container {
+            padding: 10px;
+            margin: 0%;
+            min-height: 100%; 
+}
+
+.slideshow-container-content {
+    max-width: 10px;
+    margin: 10%;
+    text-align: right;
+}
+.mySlides {
+    justify-content: right;
+    align-items: right;
+    width: 80%; /* Full width of the viewport */
+    height: 150%; /* Full height of the viewport */
+    overflow: hidden; /* Hide overflow */
+}
+.text {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size:20px;
+}
+.mySlides img {
+    width: 75%; /* Make the image fill the width of the slide container */
+    height: 100%; /* Make the image fill the height of the slide container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block;
+    align-items: center;
+    justify-content: right;
+    align-items: right;
+}
+header {
+    display: flex;
+    align-items: center;
+    color: #0f0f0f;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+.profile-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-options li {
+    margin-bottom: 5px;
+    color: black;
+    background-color: #bde2ee;
+}
+
+.profile-options a {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    white-space: nowrap;
+}
+.copyright {
+    flex: 1;
+}
+footer {
+    background-color: #1F85C0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+
+footer .copyright {
+    font-size: 14px;
+}
+.profile-options {
+    display: none;
+    position: absolute;
+    border: 1px solid #4060ee;
+    margin-top: 10px;
+}
+.profile-container {
+    display: inline-block;
+    position: relative;
+}
+
+.profile-container:hover .profile-options {
+    display: block;
+    position: absolute;
+    top: 100%;
+}

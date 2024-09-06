@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Healing Nexus</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1 style="color:rgb(31, 133, 192)">HEALING NEXUS</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="find-a-doctor.html">Find a Doctor</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="profile-container">
+            <img src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Clipart.png" alt="Profile Image" class="profile-image" id="profile-image">
+            <div class="profile-options">
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="https://assets-global.website-files.com/620e4101b2ce12a1a6bff0e8/641573b87e141d1776a71d31_Healthy%20Tips_1st%20march_header.webp" alt="Doctor 2">
+        </div>
+        <div class="mySlides">
+            <img src="https://blogimage.vantagefit.io/vfitimages/2023/05/Summer-safety-tips.png" alt="Doctor 3">
+        </div>
+        <div class="mySlides">
+            <img src="https://getmeds.ph/blog/wp-content/uploads/2021/07/avoid-diseases-caused-in-the-rainy-season-1-1-1024x576.jpg" alt="Doctor 4">
+        </div>
+        <div class="mySlides">
+            <img src="https://www.nanjappahealthcare.com/wp-content/uploads/2022/09/6-Dental-Care-Tips-to-Keep-Gum-and-Teeth-Healthy1.png" alt="Doctor 5">
+        </div>
+        <div class="mySlides">
+            <img src="https://braintherapytms.com/wp-content/uploads/2021/09/Improving-Mental-Health-10-Tips.jpg" alt="Doctor 5">
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                &copy; 2023 Healing Nexus. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+
+        function showSlides() {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); 
+        }
+        showSlides();
+    </script>
+</body>
+</html>

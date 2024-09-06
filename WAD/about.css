@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://png.pngtree.com/background/20220714/original/pngtree-doctor-medical-technology-white-banner-background-picture-image_1603280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size:20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    color: #0f0f0f;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 70px;
+}
+
+.profile-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-options li {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.profile-options a {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    white-space: nowrap;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.copyright {
+    flex: 1;
+}
+.profile-options {
+    display: none;
+    position: absolute;
+    border: 1px solid #4060ee;
+    margin-top: 10px;
+}
+.profile-container {
+    display: inline-block;
+    position: relative;
+}
+
+.profile-container:hover .profile-options {
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+footer {
+    background-color: #bde2ee;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 20px 0;
+}
